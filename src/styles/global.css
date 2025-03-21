@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 body {
-    background-color: #fff;
-    color: #333;
+    background-color: #f9f9f9;
+    color: #000;
     font-family: 'Poppins', sans-serif;
+    transition: 0.3s;
+    margin: 0;
   }
   
-  body.dark-mode {
-    background-color: #1a1a1a;
-    color: #fff;
-  }
+body.dark-mode {
+  background-color: #121212;
+  color: #fff;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
