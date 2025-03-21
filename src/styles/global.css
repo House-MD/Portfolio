@@ -17,3 +17,30 @@ body.dark-mode {
   display: flex;
   flex-direction: column;
 }
+
+.home{
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.footer{
+  min-height: 50px;
+  background: PapayaWhip;
+}
+
+.streak{
+  position: fixed;
+  rotate: -40deg;
+  translate: -1200px;
+  left:0;
+  width: 250vw;
+  height: 30rem;
+  background-color: #FFFFFF;
+  z-index: -1;
+}
+
+body.dark-mode .streak{
+  background-color: #0F0F0F;
+}

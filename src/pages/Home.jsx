@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 function Home() {
     return (
         <div className="home">
+            <div className="streak"></div>
             <Header />
             <Hero />
             <ProjectList />
